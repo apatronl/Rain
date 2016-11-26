@@ -8,9 +8,6 @@
 
 import UIKit
 import CoreLocation
-import Alamofire
-import SwiftyJSON
-
 
 class PagesViewController: UIViewController, CLLocationManagerDelegate {
     

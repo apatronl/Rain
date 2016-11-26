@@ -119,6 +119,7 @@ struct DailyWeather {
 }
 
 struct DailyData {
+    
     var minTemp: String?
     var maxTemp: String?
     var emoji: String?
