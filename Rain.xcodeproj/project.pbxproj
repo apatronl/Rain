@@ -7,80 +7,254 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDFC3713A092A3A7896D9C40 /* Pods_Rain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D92FEAB1C16A133EDEB8B15 /* Pods_Rain.framework */; };
+		ED26BA661DE9098800BBE9A6 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED26BA651DE9098800BBE9A6 /* CAPSPageMenu.swift */; };
+		ED39D4091CF4CB19001657F8 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39D4081CF4CB19001657F8 /* NavViewController.swift */; };
+		ED39D40F1CF4FE15001657F8 /* MainSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39D40E1CF4FE15001657F8 /* MainSettingsViewController.swift */; };
+		ED39D4171CF53E90001657F8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39D4161CF53E90001657F8 /* Utils.swift */; };
+		ED39D4191CF53EA1001657F8 /* ForecastSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39D4181CF53EA1001657F8 /* ForecastSettingsViewController.swift */; };
+		ED39D41B1CF7816A001657F8 /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39D41A1CF7816A001657F8 /* PagesViewController.swift */; };
+		ED39D4241CF799B2001657F8 /* MenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39D4231CF799B2001657F8 /* MenuViewController.storyboard */; };
+		ED39D4261CF799D1001657F8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39D4251CF799D1001657F8 /* TodayViewController.swift */; };
+		ED39D42A1CF7CADF001657F8 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39D4291CF7CADF001657F8 /* DailyViewController.swift */; };
+		ED39D42C1CF7CB46001657F8 /* NotificationSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39D42B1CF7CB46001657F8 /* NotificationSettingsViewController.swift */; };
+		ED58F2CD1CEC1414004F3C7A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED58F2CB1CEC1414004F3C7A /* Interface.storyboard */; };
+		ED58F2CF1CEC1414004F3C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED58F2CE1CEC1414004F3C7A /* Assets.xcassets */; };
+		ED58F2D61CEC1414004F3C7A /* Rain Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ED58F2D51CEC1414004F3C7A /* Rain Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED58F2DD1CEC1414004F3C7A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED58F2DC1CEC1414004F3C7A /* InterfaceController.swift */; };
+		ED58F2DF1CEC1414004F3C7A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED58F2DE1CEC1414004F3C7A /* ExtensionDelegate.swift */; };
+		ED58F2E11CEC1414004F3C7A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED58F2E01CEC1414004F3C7A /* NotificationController.swift */; };
+		ED58F2E31CEC1414004F3C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED58F2E21CEC1414004F3C7A /* Assets.xcassets */; };
+		ED5B5C8F1D66715700536983 /* DarkSkyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5B5C8E1D66715700536983 /* DarkSkyService.swift */; };
+		ED7A9EF91CFAB207007B9DFF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A9EF81CFAB207007B9DFF /* Constants.swift */; };
+		ED7A9EFE1CFCC209007B9DFF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7A9EFD1CFCC209007B9DFF /* MBProgressHUD.m */; };
+		ED7A9F001CFCD43F007B9DFF /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A9EFF1CFCD43F007B9DFF /* About.swift */; };
+		ED7A9F081D07BE37007B9DFF /* HourlyForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A9F071D07BE37007B9DFF /* HourlyForecastCell.swift */; };
+		ED7A9F0A1D07EBDF007B9DFF /* DailyForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A9F091D07EBDF007B9DFF /* DailyForecastCell.swift */; };
+		ED7D226E1DE90B36005D06C8 /* HourlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7D226D1DE90B36005D06C8 /* HourlyViewController.swift */; };
+		ED7D22701DE90EEA005D06C8 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7D226F1DE90EEA005D06C8 /* Settings.swift */; };
+		ED7D22721DE913FB005D06C8 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7D22711DE913FB005D06C8 /* WeatherData.swift */; };
 		ED95AEB91CE2F37400894668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95AEB81CE2F37400894668 /* AppDelegate.swift */; };
-		ED95AEBB1CE2F37400894668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95AEBA1CE2F37400894668 /* ViewController.swift */; };
 		ED95AEBE1CE2F37400894668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED95AEBC1CE2F37400894668 /* Main.storyboard */; };
 		ED95AEC01CE2F37400894668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED95AEBF1CE2F37400894668 /* Assets.xcassets */; };
 		ED95AEC31CE2F37400894668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED95AEC11CE2F37400894668 /* LaunchScreen.storyboard */; };
-		ED95AECE1CE2F37400894668 /* RainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95AECD1CE2F37400894668 /* RainTests.swift */; };
-		ED95AED91CE2F37400894668 /* RainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95AED81CE2F37400894668 /* RainUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ED95AECA1CE2F37400894668 /* PBXContainerItemProxy */ = {
+		ED58F2D71CEC1414004F3C7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ED95AEAD1CE2F37400894668 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED95AEB41CE2F37400894668;
-			remoteInfo = Rain;
-		};
-		ED95AED51CE2F37400894668 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ED95AEAD1CE2F37400894668 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ED95AEB41CE2F37400894668;
-			remoteInfo = Rain;
+			remoteGlobalIDString = ED58F2D41CEC1414004F3C7A;
+			remoteInfo = "Rain Watch Extension";
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ED58F2ED1CEC1415004F3C7A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ED58F2D61CEC1414004F3C7A /* Rain Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED58F2EF1CEC1415004F3C7A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3D8E2D70247E6C3DA1A0847C /* Pods-Rain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rain.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rain/Pods-Rain.release.xcconfig"; sourceTree = "<group>"; };
+		4821FAB10716EB817E25C0BB /* Pods-Rain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rain/Pods-Rain.debug.xcconfig"; sourceTree = "<group>"; };
+		9D92FEAB1C16A133EDEB8B15 /* Pods_Rain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED26BA651DE9098800BBE9A6 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = ../CAPSPageMenu.swift; sourceTree = "<group>"; };
+		ED39D4081CF4CB19001657F8 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		ED39D40E1CF4FE15001657F8 /* MainSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSettingsViewController.swift; sourceTree = "<group>"; };
+		ED39D4161CF53E90001657F8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		ED39D4181CF53EA1001657F8 /* ForecastSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastSettingsViewController.swift; sourceTree = "<group>"; };
+		ED39D41A1CF7816A001657F8 /* PagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
+		ED39D4231CF799B2001657F8 /* MenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MenuViewController.storyboard; sourceTree = "<group>"; };
+		ED39D4251CF799D1001657F8 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		ED39D4291CF7CADF001657F8 /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		ED39D42B1CF7CB46001657F8 /* NotificationSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSettingsViewController.swift; sourceTree = "<group>"; };
+		ED58F2C91CEC1414004F3C7A /* Rain Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rain Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED58F2CC1CEC1414004F3C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		ED58F2CE1CEC1414004F3C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED58F2D01CEC1414004F3C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED58F2D51CEC1414004F3C7A /* Rain Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rain Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED58F2DB1CEC1414004F3C7A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ED58F2DC1CEC1414004F3C7A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		ED58F2DE1CEC1414004F3C7A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		ED58F2E01CEC1414004F3C7A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		ED58F2E21CEC1414004F3C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED58F2E41CEC1414004F3C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5B5C8E1D66715700536983 /* DarkSkyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkSkyService.swift; sourceTree = "<group>"; };
+		ED7A9EF81CFAB207007B9DFF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ED7A9EFB1CFCC066007B9DFF /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		ED7A9EFC1CFCC209007B9DFF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		ED7A9EFD1CFCC209007B9DFF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		ED7A9EFF1CFCD43F007B9DFF /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		ED7A9F051D039C6F007B9DFF /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorView.framework; path = "../../../Library/Developer/Xcode/DerivedData/Rain-bkzyptjxovrvxkctodfgtwzptmfe/Build/Products/Debug-iphoneos/NVActivityIndicatorView/NVActivityIndicatorView.framework"; sourceTree = "<group>"; };
+		ED7A9F071D07BE37007B9DFF /* HourlyForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyForecastCell.swift; sourceTree = "<group>"; };
+		ED7A9F091D07EBDF007B9DFF /* DailyForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyForecastCell.swift; sourceTree = "<group>"; };
+		ED7D226D1DE90B36005D06C8 /* HourlyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyViewController.swift; sourceTree = "<group>"; };
+		ED7D226F1DE90EEA005D06C8 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		ED7D22711DE913FB005D06C8 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		ED95AEB51CE2F37400894668 /* Rain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED95AEB81CE2F37400894668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED95AEBA1CE2F37400894668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED95AEBD1CE2F37400894668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED95AEBF1CE2F37400894668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED95AEC21CE2F37400894668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED95AEC41CE2F37400894668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED95AEC91CE2F37400894668 /* RainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED95AECD1CE2F37400894668 /* RainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainTests.swift; sourceTree = "<group>"; };
 		ED95AECF1CE2F37400894668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED95AED41CE2F37400894668 /* RainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED95AED81CE2F37400894668 /* RainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainUITests.swift; sourceTree = "<group>"; };
 		ED95AEDA1CE2F37400894668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E9A348E7737351D3C6BE1E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED58F2D21CEC1414004F3C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED95AEB21CE2F37400894668 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED95AEC61CE2F37400894668 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED95AED11CE2F37400894668 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BDFC3713A092A3A7896D9C40 /* Pods_Rain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0106D3735B2ECE465C018EFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4821FAB10716EB817E25C0BB /* Pods-Rain.debug.xcconfig */,
+				3D8E2D70247E6C3DA1A0847C /* Pods-Rain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3DA74C1BD32A80A66393148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7A9F051D039C6F007B9DFF /* NVActivityIndicatorView.framework */,
+				9D92FEAB1C16A133EDEB8B15 /* Pods_Rain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED39D40D1CF4FE0E001657F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED39D41A1CF7816A001657F8 /* PagesViewController.swift */,
+				ED39D4251CF799D1001657F8 /* TodayViewController.swift */,
+				ED7D226D1DE90B36005D06C8 /* HourlyViewController.swift */,
+				ED39D4291CF7CADF001657F8 /* DailyViewController.swift */,
+				ED39D40E1CF4FE15001657F8 /* MainSettingsViewController.swift */,
+				ED39D4181CF53EA1001657F8 /* ForecastSettingsViewController.swift */,
+				ED39D42B1CF7CB46001657F8 /* NotificationSettingsViewController.swift */,
+				ED7A9EFF1CFCD43F007B9DFF /* About.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ED39D4101CF4FE1B001657F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED7D22711DE913FB005D06C8 /* WeatherData.swift */,
+				ED7A9F071D07BE37007B9DFF /* HourlyForecastCell.swift */,
+				ED7A9F091D07EBDF007B9DFF /* DailyForecastCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ED39D4111CF4FE28001657F8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ED95AEB81CE2F37400894668 /* AppDelegate.swift */,
+				ED39D4081CF4CB19001657F8 /* NavViewController.swift */,
+				ED39D4161CF53E90001657F8 /* Utils.swift */,
+				ED7A9EF81CFAB207007B9DFF /* Constants.swift */,
+				ED26BA651DE9098800BBE9A6 /* CAPSPageMenu.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		ED58F2CA1CEC1414004F3C7A /* Rain Watch */ = {
+			isa = PBXGroup;
+			children = (
+				ED58F2CB1CEC1414004F3C7A /* Interface.storyboard */,
+				ED58F2CE1CEC1414004F3C7A /* Assets.xcassets */,
+				ED58F2D01CEC1414004F3C7A /* Info.plist */,
+			);
+			path = "Rain Watch";
+			sourceTree = SOURCE_ROOT;
+		};
+		ED58F2D91CEC1414004F3C7A /* Rain Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED58F2DC1CEC1414004F3C7A /* InterfaceController.swift */,
+				ED58F2DE1CEC1414004F3C7A /* ExtensionDelegate.swift */,
+				ED58F2E01CEC1414004F3C7A /* NotificationController.swift */,
+				ED58F2E21CEC1414004F3C7A /* Assets.xcassets */,
+				ED58F2E41CEC1414004F3C7A /* Info.plist */,
+				ED58F2DA1CEC1414004F3C7A /* Supporting Files */,
+			);
+			path = "Rain Watch Extension";
+			sourceTree = "<group>";
+		};
+		ED58F2DA1CEC1414004F3C7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED58F2DB1CEC1414004F3C7A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED5B5C8D1D6670F800536983 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED5B5C8E1D66715700536983 /* DarkSkyService.swift */,
+				ED7D226F1DE90EEA005D06C8 /* Settings.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		ED95AEAC1CE2F37400894668 = {
 			isa = PBXGroup;
 			children = (
 				ED95AEB71CE2F37400894668 /* Rain */,
+				ED58F2CA1CEC1414004F3C7A /* Rain Watch */,
+				ED58F2D91CEC1414004F3C7A /* Rain Watch Extension */,
 				ED95AECC1CE2F37400894668 /* RainTests */,
 				ED95AED71CE2F37400894668 /* RainUITests */,
 				ED95AEB61CE2F37400894668 /* Products */,
+				0106D3735B2ECE465C018EFF /* Pods */,
+				A3DA74C1BD32A80A66393148 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +262,8 @@
 			isa = PBXGroup;
 			children = (
 				ED95AEB51CE2F37400894668 /* Rain.app */,
-				ED95AEC91CE2F37400894668 /* RainTests.xctest */,
-				ED95AED41CE2F37400894668 /* RainUITests.xctest */,
+				ED58F2C91CEC1414004F3C7A /* Rain Watch.app */,
+				ED58F2D51CEC1414004F3C7A /* Rain Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +271,15 @@
 		ED95AEB71CE2F37400894668 /* Rain */ = {
 			isa = PBXGroup;
 			children = (
-				ED95AEB81CE2F37400894668 /* AppDelegate.swift */,
-				ED95AEBA1CE2F37400894668 /* ViewController.swift */,
 				ED95AEBC1CE2F37400894668 /* Main.storyboard */,
+				ED39D4231CF799B2001657F8 /* MenuViewController.storyboard */,
+				ED39D4101CF4FE1B001657F8 /* Model */,
+				ED39D40D1CF4FE0E001657F8 /* Controller */,
+				ED5B5C8D1D6670F800536983 /* Services */,
+				ED39D4111CF4FE28001657F8 /* Other */,
+				ED7A9EFB1CFCC066007B9DFF /* BridgingHeader.h */,
+				ED7A9EFC1CFCC209007B9DFF /* MBProgressHUD.h */,
+				ED7A9EFD1CFCC209007B9DFF /* MBProgressHUD.m */,
 				ED95AEBF1CE2F37400894668 /* Assets.xcassets */,
 				ED95AEC11CE2F37400894668 /* LaunchScreen.storyboard */,
 				ED95AEC41CE2F37400894668 /* Info.plist */,
@@ -128,13 +308,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		ED58F2C81CEC1414004F3C7A /* Rain Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED58F2EE1CEC1415004F3C7A /* Build configuration list for PBXNativeTarget "Rain Watch" */;
+			buildPhases = (
+				ED58F2C71CEC1414004F3C7A /* Resources */,
+				ED58F2ED1CEC1415004F3C7A /* Embed App Extensions */,
+				E9A348E7737351D3C6BE1E93 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED58F2D81CEC1414004F3C7A /* PBXTargetDependency */,
+			);
+			name = "Rain Watch";
+			productName = "Rain Watch";
+			productReference = ED58F2C91CEC1414004F3C7A /* Rain Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		ED58F2D41CEC1414004F3C7A /* Rain Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED58F2EC1CEC1415004F3C7A /* Build configuration list for PBXNativeTarget "Rain Watch Extension" */;
+			buildPhases = (
+				ED58F2D11CEC1414004F3C7A /* Sources */,
+				ED58F2D21CEC1414004F3C7A /* Frameworks */,
+				ED58F2D31CEC1414004F3C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rain Watch Extension";
+			productName = "Rain Watch Extension";
+			productReference = ED58F2D51CEC1414004F3C7A /* Rain Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		ED95AEB41CE2F37400894668 /* Rain */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED95AEDD1CE2F37400894668 /* Build configuration list for PBXNativeTarget "Rain" */;
 			buildPhases = (
+				01EA55447EC7EDB3CE6279AC /* [CP] Check Pods Manifest.lock */,
 				ED95AEB11CE2F37400894668 /* Sources */,
 				ED95AEB21CE2F37400894668 /* Frameworks */,
 				ED95AEB31CE2F37400894668 /* Resources */,
+				516FA1AE64F63CC2791083C8 /* [CP] Embed Pods Frameworks */,
+				B7E9AE98F9074505737E2348 /* [CP] Copy Pods Resources */,
+				ED58F2EF1CEC1415004F3C7A /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -145,42 +364,6 @@
 			productReference = ED95AEB51CE2F37400894668 /* Rain.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ED95AEC81CE2F37400894668 /* RainTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ED95AEE01CE2F37400894668 /* Build configuration list for PBXNativeTarget "RainTests" */;
-			buildPhases = (
-				ED95AEC51CE2F37400894668 /* Sources */,
-				ED95AEC61CE2F37400894668 /* Frameworks */,
-				ED95AEC71CE2F37400894668 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ED95AECB1CE2F37400894668 /* PBXTargetDependency */,
-			);
-			name = RainTests;
-			productName = RainTests;
-			productReference = ED95AEC91CE2F37400894668 /* RainTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		ED95AED31CE2F37400894668 /* RainUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ED95AEE31CE2F37400894668 /* Build configuration list for PBXNativeTarget "RainUITests" */;
-			buildPhases = (
-				ED95AED01CE2F37400894668 /* Sources */,
-				ED95AED11CE2F37400894668 /* Frameworks */,
-				ED95AED21CE2F37400894668 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ED95AED61CE2F37400894668 /* PBXTargetDependency */,
-			);
-			name = RainUITests;
-			productName = RainUITests;
-			productReference = ED95AED41CE2F37400894668 /* RainUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,22 +371,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Ale Patrón";
 				TargetAttributes = {
+					ED58F2C81CEC1414004F3C7A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5U48XLFTQZ;
+					};
+					ED58F2D41CEC1414004F3C7A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5U48XLFTQZ;
+					};
 					ED95AEB41CE2F37400894668 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 5U48XLFTQZ;
-					};
-					ED95AEC81CE2F37400894668 = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 5U48XLFTQZ;
-						TestTargetID = ED95AEB41CE2F37400894668;
-					};
-					ED95AED31CE2F37400894668 = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 5U48XLFTQZ;
-						TestTargetID = ED95AEB41CE2F37400894668;
+						DevelopmentTeam = MBTYQ8R5C4;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -221,81 +403,147 @@
 			projectRoot = "";
 			targets = (
 				ED95AEB41CE2F37400894668 /* Rain */,
-				ED95AEC81CE2F37400894668 /* RainTests */,
-				ED95AED31CE2F37400894668 /* RainUITests */,
+				ED58F2C81CEC1414004F3C7A /* Rain Watch */,
+				ED58F2D41CEC1414004F3C7A /* Rain Watch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		ED58F2C71CEC1414004F3C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED58F2CF1CEC1414004F3C7A /* Assets.xcassets in Resources */,
+				ED58F2CD1CEC1414004F3C7A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED58F2D31CEC1414004F3C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED58F2E31CEC1414004F3C7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED95AEB31CE2F37400894668 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED39D4241CF799B2001657F8 /* MenuViewController.storyboard in Resources */,
 				ED95AEC31CE2F37400894668 /* LaunchScreen.storyboard in Resources */,
 				ED95AEC01CE2F37400894668 /* Assets.xcassets in Resources */,
 				ED95AEBE1CE2F37400894668 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED95AEC71CE2F37400894668 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED95AED21CE2F37400894668 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01EA55447EC7EDB3CE6279AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		516FA1AE64F63CC2791083C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rain/Pods-Rain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E9AE98F9074505737E2348 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rain/Pods-Rain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		ED58F2D11CEC1414004F3C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED58F2E11CEC1414004F3C7A /* NotificationController.swift in Sources */,
+				ED58F2DF1CEC1414004F3C7A /* ExtensionDelegate.swift in Sources */,
+				ED58F2DD1CEC1414004F3C7A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED95AEB11CE2F37400894668 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED95AEBB1CE2F37400894668 /* ViewController.swift in Sources */,
+				ED7A9F001CFCD43F007B9DFF /* About.swift in Sources */,
+				ED26BA661DE9098800BBE9A6 /* CAPSPageMenu.swift in Sources */,
+				ED39D42A1CF7CADF001657F8 /* DailyViewController.swift in Sources */,
+				ED39D42C1CF7CB46001657F8 /* NotificationSettingsViewController.swift in Sources */,
+				ED39D4091CF4CB19001657F8 /* NavViewController.swift in Sources */,
+				ED7A9F0A1D07EBDF007B9DFF /* DailyForecastCell.swift in Sources */,
+				ED39D41B1CF7816A001657F8 /* PagesViewController.swift in Sources */,
+				ED39D40F1CF4FE15001657F8 /* MainSettingsViewController.swift in Sources */,
+				ED7A9EFE1CFCC209007B9DFF /* MBProgressHUD.m in Sources */,
+				ED39D4261CF799D1001657F8 /* TodayViewController.swift in Sources */,
+				ED39D4191CF53EA1001657F8 /* ForecastSettingsViewController.swift in Sources */,
 				ED95AEB91CE2F37400894668 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED95AEC51CE2F37400894668 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED95AECE1CE2F37400894668 /* RainTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED95AED01CE2F37400894668 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED95AED91CE2F37400894668 /* RainUITests.swift in Sources */,
+				ED7D22701DE90EEA005D06C8 /* Settings.swift in Sources */,
+				ED7A9EF91CFAB207007B9DFF /* Constants.swift in Sources */,
+				ED7D22721DE913FB005D06C8 /* WeatherData.swift in Sources */,
+				ED7A9F081D07BE37007B9DFF /* HourlyForecastCell.swift in Sources */,
+				ED39D4171CF53E90001657F8 /* Utils.swift in Sources */,
+				ED5B5C8F1D66715700536983 /* DarkSkyService.swift in Sources */,
+				ED7D226E1DE90B36005D06C8 /* HourlyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ED95AECB1CE2F37400894668 /* PBXTargetDependency */ = {
+		ED58F2D81CEC1414004F3C7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED95AEB41CE2F37400894668 /* Rain */;
-			targetProxy = ED95AECA1CE2F37400894668 /* PBXContainerItemProxy */;
-		};
-		ED95AED61CE2F37400894668 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ED95AEB41CE2F37400894668 /* Rain */;
-			targetProxy = ED95AED51CE2F37400894668 /* PBXContainerItemProxy */;
+			target = ED58F2D41CEC1414004F3C7A /* Rain Watch Extension */;
+			targetProxy = ED58F2D71CEC1414004F3C7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		ED58F2CB1CEC1414004F3C7A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED58F2CC1CEC1414004F3C7A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		ED95AEBC1CE2F37400894668 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -315,6 +563,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		ED58F2E81CEC1415004F3C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Rain_Watch_Extension;
+				INFOPLIST_FILE = "Rain Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlePatron.Rain.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		ED58F2E91CEC1415004F3C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Rain_Watch_Extension;
+				INFOPLIST_FILE = "Rain Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlePatron.Rain.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		ED58F2EA1CEC1415004F3C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rain Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlePatron.Rain.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		ED58F2EB1CEC1415004F3C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rain Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlePatron.Rain.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
 		ED95AEDB1CE2F37400894668 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -329,8 +637,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -355,6 +665,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "141edc2d-29d1-4da1-8607-5d0d996ed11c";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -374,8 +685,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -393,82 +706,76 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "141edc2d-29d1-4da1-8607-5d0d996ed11c";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		ED95AEDE1CE2F37400894668 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4821FAB10716EB817E25C0BB /* Pods-Rain.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = MBTYQ8R5C4;
 				INFOPLIST_FILE = Rain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlePatron.Rain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9c22bbba-b780-46ba-83da-48e766e02785";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Rain/BridgingHeader.h;
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ED95AEDF1CE2F37400894668 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8E2D70247E6C3DA1A0847C /* Pods-Rain.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = MBTYQ8R5C4;
 				INFOPLIST_FILE = Rain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlePatron.Rain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		ED95AEE11CE2F37400894668 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = RainTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlePatron.RainTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rain.app/Rain";
-			};
-			name = Debug;
-		};
-		ED95AEE21CE2F37400894668 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = RainTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlePatron.RainTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rain.app/Rain";
-			};
-			name = Release;
-		};
-		ED95AEE41CE2F37400894668 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = RainUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlePatron.RainUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Rain;
-			};
-			name = Debug;
-		};
-		ED95AEE51CE2F37400894668 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = RainUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlePatron.RainUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Rain;
+				PROVISIONING_PROFILE = "9c22bbba-b780-46ba-83da-48e766e02785";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Rain/BridgingHeader.h;
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		ED58F2EC1CEC1415004F3C7A /* Build configuration list for PBXNativeTarget "Rain Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED58F2EA1CEC1415004F3C7A /* Debug */,
+				ED58F2EB1CEC1415004F3C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED58F2EE1CEC1415004F3C7A /* Build configuration list for PBXNativeTarget "Rain Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED58F2E81CEC1415004F3C7A /* Debug */,
+				ED58F2E91CEC1415004F3C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ED95AEB01CE2F37400894668 /* Build configuration list for PBXProject "Rain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -485,22 +792,7 @@
 				ED95AEDF1CE2F37400894668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		ED95AEE01CE2F37400894668 /* Build configuration list for PBXNativeTarget "RainTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ED95AEE11CE2F37400894668 /* Debug */,
-				ED95AEE21CE2F37400894668 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		ED95AEE31CE2F37400894668 /* Build configuration list for PBXNativeTarget "RainUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ED95AEE41CE2F37400894668 /* Debug */,
-				ED95AEE51CE2F37400894668 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
