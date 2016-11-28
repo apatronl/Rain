@@ -83,6 +83,7 @@ class PagesViewController: UIViewController, CLLocationManagerDelegate {
         
         // Get location
         locationManager.delegate = self
+        locationManager.requestAlwaysAuthorization()
         locationManager.requestLocation()
         hud.show(true)
 
@@ -99,13 +100,11 @@ class PagesViewController: UIViewController, CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Failed to find user's location: \(error.localizedDescription)")
-        // Could not determine location
-        // SHOW ALERT
+        // SHOW ALERT HERE
         hud.hide(true)
     }
     
     func reverseGeocoding(location: CLLocation) {
-        //let loc = CLLocation(latitude: CLLocationDegrees(25.7617), longitude: CLLocationDegrees(-80.1918))
         CLGeocoder().reverseGeocodeLocation(location, completionHandler: {(placemarks, error) -> Void in
             if let _ = error {
                 self.hud.hide(true)
@@ -131,6 +130,7 @@ class PagesViewController: UIViewController, CLLocationManagerDelegate {
         
         DarkSkyService.weatherForCoordinates(latitude: latitude, longitude: longitude) { weatherData, error in
             if let _ = error {
+                // SHOW ALERT HERE
                 print("Error")
             } else {
                 self.weather = weatherData
