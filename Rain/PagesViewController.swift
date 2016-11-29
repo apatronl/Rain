@@ -100,7 +100,7 @@ class PagesViewController: UIViewController, CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Failed to find user's location: \(error.localizedDescription)")
-        // SHOW ALERT HERE
+        // TODO: SHOW ALERT HERE
         hud.hide(true)
     }
     
@@ -130,7 +130,7 @@ class PagesViewController: UIViewController, CLLocationManagerDelegate {
         
         DarkSkyService.weatherForCoordinates(latitude: latitude, longitude: longitude) { weatherData, error in
             if let _ = error {
-                // SHOW ALERT HERE
+                // TODO: SHOW ALERT HERE
                 print("Error")
             } else {
                 self.weather = weatherData
@@ -158,6 +158,7 @@ class PagesViewController: UIViewController, CLLocationManagerDelegate {
     @IBAction func refreshButtonPressed(_ sender: UIBarButtonItem) {
         hud.show(true)
         locationManager.requestLocation()
+        // TODO: make sure all 3 pages are updated
     }
 }
 

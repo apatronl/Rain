@@ -59,6 +59,8 @@ struct TodayWeather {
         if currData > 0 {
             self.answer = "Yes"
         }
+        
+        // TODO: check hourly forecast to determine a more accurate answer
 
         self.summary = currentWeather["summary"].string ?? "--"
     }
