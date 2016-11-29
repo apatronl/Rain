@@ -195,8 +195,8 @@
                                     <action selector="poweredButtonPressed:" destination="nfE-dv-3Tx" eventType="touchUpInside" id="wg8-dD-47b"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xs3-bU-vJ0">
-                                <rect key="frame" x="16" y="105" width="343" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xs3-bU-vJ0">
+                                <rect key="frame" x="36" y="105" width="303" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="2Ci-OB-o5I"/>
                                 </constraints>
@@ -269,10 +269,10 @@
                             <constraint firstItem="T3n-b5-9Mc" firstAttribute="centerX" secondItem="cxk-38-1Pr" secondAttribute="centerX" id="6Ks-2Q-5iO"/>
                             <constraint firstItem="iMT-Ve-Hw2" firstAttribute="top" secondItem="T3n-b5-9Mc" secondAttribute="bottom" constant="8" id="7Us-MA-2bS"/>
                             <constraint firstItem="T3n-b5-9Mc" firstAttribute="top" secondItem="xs3-bU-vJ0" secondAttribute="bottom" constant="8" id="9cL-JC-t5j"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xs3-bU-vJ0" secondAttribute="trailing" id="Bv4-Ke-sGF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xs3-bU-vJ0" secondAttribute="trailing" constant="20" id="Bv4-Ke-sGF"/>
                             <constraint firstItem="T3n-b5-9Mc" firstAttribute="width" secondItem="cxk-38-1Pr" secondAttribute="width" id="DaX-u9-kAq"/>
                             <constraint firstItem="zeM-gH-Igs" firstAttribute="top" secondItem="iMT-Ve-Hw2" secondAttribute="bottom" constant="20" id="Ltw-xr-liw"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="xs3-bU-vJ0" secondAttribute="leading" id="T24-eh-aj2"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="xs3-bU-vJ0" secondAttribute="leading" constant="-20" id="T24-eh-aj2"/>
                             <constraint firstItem="xs3-bU-vJ0" firstAttribute="top" secondItem="ywL-gS-r6m" secondAttribute="bottom" constant="85" id="THt-Px-yqt"/>
                             <constraint firstItem="iMT-Ve-Hw2" firstAttribute="centerX" secondItem="cxk-38-1Pr" secondAttribute="centerX" id="lom-mv-Crq"/>
                         </constraints>
@@ -284,7 +284,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AK5-Vx-B7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="758.5" y="1841.5"/>
+            <point key="canvasLocation" x="757.60000000000002" y="1840.0299850074964"/>
         </scene>
     </scenes>
 </document>

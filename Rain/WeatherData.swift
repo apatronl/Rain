@@ -31,7 +31,7 @@ struct WeatherData {
         emoji = currentWeather["icon"].string!.getEmoji()
         
         // Pages
-        today = TodayWeather(currentWeather: currentWeather)
+        today = TodayWeather(currentWeather: currentWeather, hourlyWeather: json["hourly"])
         hourly = HourlyWeather(hourlyWeather: json["hourly"])
         daily = DailyWeather(dailyWeather: json["daily"])
         
@@ -53,14 +53,15 @@ struct TodayWeather {
     var answer: String?
     var summary: String?
     
-    init(currentWeather: JSON) {
+    init(currentWeather: JSON, hourlyWeather: JSON) {
         self.answer = "No"
         let currData = currentWeather["precipProbability"].float!
         if currData > 0 {
             self.answer = "Yes"
         }
-        
-        // TODO: check hourly forecast to determine a more accurate answer
+        if (hourlyWeather["icon"] == "rain") {
+            self.answer = "Yes"
+        }
 
         self.summary = currentWeather["summary"].string ?? "--"
     }
