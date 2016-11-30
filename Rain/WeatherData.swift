@@ -40,12 +40,6 @@ struct WeatherData {
     
 }
 
-//let hourlyData = todayData["hourly"]
-//if (hourlyData["icon"] == "rain") {
-//    answer = "Yes"
-//    return answer
-//}
-
 // MARK: Today's weather
 
 struct TodayWeather {

@@ -12,6 +12,7 @@ class TodayViewController: UIViewController, SFSafariViewControllerDelegate {
     
     var weather: TodayWeather?
     @IBOutlet weak var answerLabel: UILabel!
+    @IBOutlet weak var summary: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,8 +27,8 @@ class TodayViewController: UIViewController, SFSafariViewControllerDelegate {
     
     func updateUI() {
         if let weather = weather {
-            self.answerLabel.isHidden = false
             self.answerLabel.text = weather.answer
+            self.summary.text = weather.summary
         }
     }
 }
