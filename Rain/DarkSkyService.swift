@@ -11,7 +11,7 @@ import Alamofire
 public struct DarkSkyService {
     
     private static let baseUrl = "https://api.darksky.net/forecast/"
-    private static let apiKey = "725fa1cbe3c4e5c6576f04ed217acb1b"
+    private static let apiKey = "00ded97466876acd8521b9c327bccea0"
     
     /// Makes request to the Dark Sky API
     ///
