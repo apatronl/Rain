@@ -2,7 +2,7 @@
 Rain allows you to see current, hourly, and daily weather forecasts, as well as get notifications for each day's rain forecast.
 
 <p align="center">
-<img src="Rain.png" width="550"/>
+<img src="Rain.png" width="660"/>
 </p>
 
 # License
