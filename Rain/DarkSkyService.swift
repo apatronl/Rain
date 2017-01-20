@@ -20,7 +20,7 @@ public struct DarkSkyService {
     ///     - longitude: location's longitude coordinate
     ///     - completion: handler to execute when network request is complete
     static func weatherForCoordinates(latitude: String, longitude: String, completion: @escaping (WeatherData?, Error?) -> ()) {
-        let url = baseUrl + "\(apiKey)/\(latitude),\(longitude)"
+        let url = baseUrl + "\(apiKey)/\(latitude),\(longitude)?units=\(Settings.getTemperatureUnits())"
         Alamofire.request(url).responseJSON { response in
             switch response.result {
             case .success:
