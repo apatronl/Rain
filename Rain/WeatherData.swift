@@ -24,7 +24,8 @@ struct WeatherData {
         let json = JSON(data)
         let currentWeather = json["currently"]
         if let temp = currentWeather["temperature"].float {
-            temperature = String(format: "%.0f", temp) + "º" // + (units == "si" ? "C" : "F")
+            temperature = String(format: "%.0f", temp) + "º"
+                           + (Settings.getTemperatureUnits() == "si" ? "C" : "F")
         } else {
             temperature = "--"
         }
